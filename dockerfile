@@ -5,6 +5,7 @@ FROM python:3.8-slim-buster
 ENV SLEEP_SECONDS="5"
 ENV RUN_SECONDS="300" 
 ENV RUN_FOR_EVER="no" 
+ENV PYTHONUNBUFFERED="1" 
 
 # Working DIR 
 WORKDIR /python-app
