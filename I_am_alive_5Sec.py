@@ -10,7 +10,7 @@ def print_time_hostname_ip():
     current_time = time.strftime('%Y-%m-%d %H:%M:%S')
     host_name = socket.gethostname()
     ip_address = socket.gethostbyname(host_name)
-    print(f"I'm Alive Amigo - {current_time}, Host: {host_name}, IP: {ip_address}")
+    print(f"I am Alive Amigo - {current_time}, Host: {host_name}, IP: {ip_address}")
 
 if RUN_FOR_EVER.lower() == "yes":
     while True:
